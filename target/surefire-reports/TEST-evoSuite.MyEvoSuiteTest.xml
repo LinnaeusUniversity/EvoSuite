@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="evoSuite.MyEvoSuiteTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="evoSuite.MyEvoSuiteTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
@@ -31,7 +31,7 @@
     <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\PYTHON38\SCRIPTS\;C:\PYTHON38\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\WINDOWS\SYSTEM32\OPENSSH\;C:\CYGWIN64\BIN;C:\PROGRAM FILES\SOURCEGEAR\COMMON\DIFFMERGE\;C:\PROGRAMDATA\CHOCOLATEY\BIN;C:\PROGRAM FILES\GIT\CMD;C:\PROGRAM FILES\GIT\MINGW64\BIN;C:\PROGRAM FILES\GIT\USR\BIN;C:\PROGRAM FILES\DOTNET\;C:\Program Files\ASUS\Bluetooth Software\;C:\Program Files\ASUS\Bluetooth Software\syswow64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Calibre2\;C:\Program Files\MavenJar\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\rashi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\rashi\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rashi\.dotnet\tools;C:\Users\rashi\AppData\Local\Microsoft\WindowsApps;C:\Users\rashi\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.2\bin;;C:\Program Files\sqlite-tools-win32-x86-3340100;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\PYTHON38\SCRIPTS\;C:\PYTHON38\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\WINDOWS\SYSTEM32\OPENSSH\;C:\CYGWIN64\BIN;C:\PROGRAM FILES\SOURCEGEAR\COMMON\DIFFMERGE\;C:\PROGRAMDATA\CHOCOLATEY\BIN;C:\PROGRAM FILES\GIT\CMD;C:\PROGRAM FILES\GIT\MINGW64\BIN;C:\PROGRAM FILES\GIT\USR\BIN;C:\PROGRAM FILES\DOTNET\;C:\Program Files\ASUS\Bluetooth Software\;C:\Program Files\ASUS\Bluetooth Software\syswow64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Calibre2\;C:\Program Files\MavenJar\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\rashi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\rashi\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rashi\.dotnet\tools;C:\Users\rashi\AppData\Local\Microsoft\WindowsApps;C:\Users\rashi\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.2\bin;;C:\Program Files\sqlite-tools-win32-x86-3340100;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\MavenJar\apache-maven-3.6.3\bin;;."/>
     <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\plugins\maven\lib\maven3/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -66,5 +66,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="evoSuite.MyEvoSuiteTest" name="add" time="0.005"/>
+  <testcase classname="evoSuite.MyEvoSuiteTest" name="add" time="0.003"/>
 </testsuite>
