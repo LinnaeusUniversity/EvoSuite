@@ -85,7 +85,7 @@
       </dependencies>
     </project>
 
-1.The dependencies section only declares what the code we are working with depends on. However, what we would like to do is to tell Maven that we would like to use EvoSuite as part of our build – so we need to declare a build dependency on EvoSuite, not a project dependency. Dependencies of the build are specified as plugins in the build section of the ```pom.xml```. Add the following snippet to the ```pom.xml``` as a child node of ```<project>```, for example beneath the ```</dependencies>``` section: 
+The dependencies section only declares what the code we are working with depends on. However, what we would like to do is to tell Maven that we would like to use EvoSuite as part of our build – so we need to declare a build dependency on EvoSuite, not a project dependency. Dependencies of the build are specified as plugins in the build section of the ```pom.xml```. Add the following snippet to the ```pom.xml``` as a child node of ```<project>```, for example beneath the ```</dependencies>``` section: 
 
               <build>
                 <plugins>
@@ -101,7 +101,7 @@
     1. Let Intellij pop message: Maven project need to be imported. Enable Auto-import
     1. Maven uses the Evosuite Maven plugin. Maven can automatically resolve build dependencies just like it resolves project dependencies, by looking for a plugin with the given groupId, artifactId, and version on Maven central.
 
-1. At this point, one caveat is that the EvoSuite plugin is not yet available on Maven Central. Therefore, we need to tell Maven that it should also look at EvoSuite’s Maven repository when trying to resolve dependencies. To achieve this, we need to add a ```<pluginRepositories>``` section where we specify EvoSuite’s URL:
+At this point, one caveat is that the EvoSuite plugin is not yet available on Maven Central. Therefore, we need to tell Maven that it should also look at EvoSuite’s Maven repository when trying to resolve dependencies. To achieve this, we need to add a ```<pluginRepositories>``` section where we specify EvoSuite’s URL:
 
        <pluginRepositories>
          <pluginRepository>
@@ -111,7 +111,7 @@
          </pluginRepository>
        </pluginRepositories>
         
-    1. The <pluginRepositories> section is again a child of the <project> tag, so for example you could add it at the end, before the closing ```</project>``` tag.        
+The <pluginRepositories> section is again a child of the <project> tag, so for example you could add it at the end, before the closing ```</project>``` tag.        
     
     #### Check if the setup works properly by invoking EvoSuite plugin. ```evosuite``` e.g ``` mvn evosuite:help```
     #### The first time you invoke the EvoSuite plugin, Maven will download EvoSuite and its dependencies and this may take a while. Once everything is downloaded, you should see the following help message:
@@ -169,8 +169,8 @@
         [INFO] Total time:  1.483 s
         [INFO] Finished at: 2021-04-07T16:13:47+02:00
         [INFO] ------------------------------------------------------------------------
-##### if you get an error check the project structure and select the correct version jdk and language level.
-##### If build is unsuccessful then there is a problem in your pom.xml. Make sure you copied all the above additions to the ```pom.xml``` correctly and try again. or go to EvoSuite documentation.
+If you get an error check the project structure and select the correct version jdk and language level.
+If build is unsuccessful then there is a problem in your pom.xml. Make sure you copied all the above additions to the ```pom.xml``` correctly and try again. or go to EvoSuite documentation.
 #####  1.  [JDK and Maven configuration guide](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE)
 #####  1.  [Evosuite.org documentaion part 2](https://www.evosuite.org/documentation/tutorial-part-2/)
 #####  2. [Evosuite.org documentaion part 1](https://www.evosuite.org/documentation/tutorial-part-1/)
@@ -254,7 +254,7 @@
 
 #### All setup: generate some tests!!!!
 
-mvn evosuite:generate
+    mvn evosuite:generate
 
 ##### If EvoSuite is set up properly, you should see something similar to
 
@@ -353,7 +353,7 @@ mvn evosuite:generate
     mvn -Dcores=4 evosuite:generate
     
 #### Integrating generated tests into the source tree
-##### you should see a BUILD SUCCESS message from Maven when EvoSuite is done. If so, then congratulations, you just generated some test suites with the EvoSuite Maven plugin! If you do not see that message, then something went wrong – please check the error message and make sure you have set up the Maven project correctly.
+You should see a BUILD SUCCESS message from Maven when EvoSuite is done. If so, then congratulations, you just generated some test suites with the EvoSuite Maven plugin! If you do not see that message, then something went wrong – please check the error message and make sure you have set up the Maven project correctly.
 ##### So, what have we generated? To find out the current state of what EvoSuite has generated for us, use the following command:
 
     mvn evosuite:info
@@ -443,4 +443,11 @@ If you set up everything correctly, you should see output similar to this one:
     [INFO] Finished at: 2021-04-08T10:34:56+02:00
     [INFO] ------------------------------------------------------------------------
     
-Note that the number of tests will vary inevitably – EvoSuite uses a randomized algorithm to generate tests, so every time you invoke it you will get a different result.        
+Note that the number of tests will vary inevitably – EvoSuite uses a randomized algorithm to generate tests, so every time you invoke it you will get a different result.
+______
+#### The end
+***************
+[Degree Project Repository](#)
+
+[JDK and Maven Repository ](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE)      
+        
