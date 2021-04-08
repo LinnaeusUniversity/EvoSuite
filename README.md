@@ -1,13 +1,36 @@
 # EvoSuite
 ## Preparing the project
+## Prerequisites
 
-1. [Downdload the tutorial maven zip](http://evosuite.org/files/tutorial/Tutorial_Maven.zip) or download it from this Repository.
+### Note: This commands are mainly for Windows users. If you are using another OS please look for specific commands.
+1. The first prerequisite is Java JDK 8 must be pre-installed.
+   1. javac -version
+        1. If you have JDK you will see an output similar to
+        
+          javac 1.8.0_281
+   1. If you are missing java compiler then you have to install it [click here](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE)
+   
+    'javac' is not recognized as an internal or external command,
+         operable program or batch file. 
+             
+1. The second prerequisite is Apache Maven. Please make sure you have version 3.1 or newer installed. To determine which version of Maven you are using, type the following command:
+         
+        mvn -v, mvn -version 
+    1. You should something similar to 
+            
+            Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+            Maven home: C:\Program Files\MavenJar\apache-maven-3.6.3\bin\..
+            Java version: 1.8.0_281, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_281\jre
+            Default locale: en_US, platform encoding: Cp1252
+            OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+1. [Downdload the tutorial maven zip](http://evosuite.org/files/tutorial/Tutorial_Maven.zip) or download it from this Repository ***Tutorial_Maven.zip***.
 1. Unzip the Tutorial_Maven.zip
 1. cd Tutorial_Maven
 1. mvn compile
 1. mvn test
     1. If you get any compilation error without any configuration then you must setup your JDK according to my instruction.
-    2. Reasons could be many: [click here](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE)
+    2. Reasons could be many: [click here](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE).
     
     If this works correctly, you should see something like this:
     
@@ -29,7 +52,6 @@
             [INFO] Finished at: 2021-04-07T15:35:30+02:00
             [INFO] ------------------------------------------------------------------------
             
-#### If this worked as above then you are ready to integrate EvoSuite. 
 
 ### Configuration process
 #### Generating EvoSuite tests with Maven
