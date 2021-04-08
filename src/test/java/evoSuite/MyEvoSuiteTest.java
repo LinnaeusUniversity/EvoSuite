@@ -2,11 +2,11 @@ package evoSuite;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class MyEvoSuiteTest {
-    MyEvoSuite myEvoSuite;
 
+    MyEvoSuite myEvoSuite;
     @Test
     public void add() {
 
@@ -17,5 +17,4 @@ public class MyEvoSuiteTest {
         int actual = a + b;
         assertEquals(expected, actual);
     }
-
 }
