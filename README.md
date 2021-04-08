@@ -98,8 +98,8 @@ The dependencies section only declares what the code we are working with depends
               </build>
               <project>
 
-    1. Let Intellij pop message: Maven project need to be imported. Enable Auto-import
-    1. Maven uses the Evosuite Maven plugin. Maven can automatically resolve build dependencies just like it resolves project dependencies, by looking for a plugin with the given groupId, artifactId, and version on Maven central.
+   1. Let Intellij pop message: Maven project need to be imported. Enable Auto-import
+   1. Maven uses the Evosuite Maven plugin. Maven can automatically resolve build dependencies just like it resolves project dependencies, by looking for a plugin with the given groupId, artifactId, and version on Maven central.
 
 At this point, one caveat is that the EvoSuite plugin is not yet available on Maven Central. Therefore, we need to tell Maven that it should also look at EvoSuite’s Maven repository when trying to resolve dependencies. To achieve this, we need to add a ```<pluginRepositories>``` section where we specify EvoSuite’s URL:
 
@@ -113,8 +113,8 @@ At this point, one caveat is that the EvoSuite plugin is not yet available on Ma
         
 The <pluginRepositories> section is again a child of the <project> tag, so for example you could add it at the end, before the closing ```</project>``` tag.        
     
-    #### Check if the setup works properly by invoking EvoSuite plugin. ```evosuite``` e.g ``` mvn evosuite:help```
-    #### The first time you invoke the EvoSuite plugin, Maven will download EvoSuite and its dependencies and this may take a while. Once everything is downloaded, you should see the following help message:
+   #### Check if the setup works properly by invoking EvoSuite plugin. ```evosuite``` e.g ``` mvn evosuite:help```
+   #### The first time you invoke the EvoSuite plugin, Maven will download EvoSuite and its dependencies and this may take a while. Once everything is downloaded, you should see the following help message:
     
    
     
