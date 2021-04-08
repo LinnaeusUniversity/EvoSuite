@@ -15,7 +15,7 @@
 1. The second prerequisite is Apache Maven. Please make sure you have version 3.1 or newer installed. To determine which version of Maven you are using, type the following command:
          
         mvn -v, mvn -version 
-    1. You should something similar to 
+    1. You should see something similar to 
             
             Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
             Maven home: C:\Program Files\MavenJar\apache-maven-3.6.3\bin\..
@@ -24,15 +24,17 @@
             OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
       1. If you are missing Maven then you have to install it [click here](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE)
 
+******************
+
 1. [Downdload the tutorial maven zip](http://evosuite.org/files/tutorial/Tutorial_Maven.zip) or download it from this Repository ***Tutorial_Maven.zip***.
 1. Unzip the Tutorial_Maven.zip
 1. cd Tutorial_Maven
 1. mvn compile
 1. mvn test
-    1. If you get any compilation error without any configuration then you must setup your JDK according to my instruction.
+    1. If you get any compilation error without any configuration then you must setup your JDK according to my instructions.
     2. Reasons could be many: [click here](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE).
     
-    If this works correctly, you should see something like this:
+    If this worked properly, you should see something like this:
     
                     
             -------------------------------------------------------
@@ -55,9 +57,9 @@
 
 ### Configuration process
 #### Generating EvoSuite tests with Maven
-##### Open the project with the intellij and go to pom.xml
+Open the project with the intellij and go to ```pom.xml```
 
-#### A closer look at the pom.xml file
+#### A closer look at the ```pom.xml``` file
 
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -98,7 +100,7 @@ The dependencies section only declares what the code we are working with depends
               </build>
               <project>
 
-   1. Let Intellij pop message: Maven project need to be imported. Enable Auto-import
+   1. Let Intellij pop message: Maven project need to be imported. ***Enable Auto-import***.
    1. Maven uses the Evosuite Maven plugin. Maven can automatically resolve build dependencies just like it resolves project dependencies, by looking for a plugin with the given groupId, artifactId, and version on Maven central.
 
 At this point, one caveat is that the EvoSuite plugin is not yet available on Maven Central. Therefore, we need to tell Maven that it should also look at EvoSuite’s Maven repository when trying to resolve dependencies. To achieve this, we need to add a ```<pluginRepositories>``` section where we specify EvoSuite’s URL:
@@ -176,7 +178,7 @@ If build is unsuccessful then there is a problem in your pom.xml. Make sure you 
 #####  2. [Evosuite.org documentaion part 1](https://www.evosuite.org/documentation/tutorial-part-1/)
 
 #### mvn evosuite:help -Ddetail=true -Dgoal=generate
-##### Set properties for the plugin goals just like you would set properties for any Java process, using the ```-Dproperty=value``` syntax. For example, to get more detailed information about the generate plugin goal when executing the help plugin goal, we can run the following command:
+Set properties for the plugin goals just like you would set properties for any Java process, using the ```-Dproperty=value``` syntax. For example, to get more detailed information about the generate plugin goal when executing the help plugin goal, we can run the following command:
 
     mvn evosuite:help -Ddetail=true -Dgoal=generate
     

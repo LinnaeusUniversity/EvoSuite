@@ -1,0 +1,7 @@
+
+o
+java:S1192"TDefine a constant instead of duplicating this literal "evoSuite.MyEvoSuite" 3 times.(‹¼ÈØùÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ç•žÂþÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ¤Ë‹ýÿÿÿÿ
+h
+java:S1128"MRemove this unused import 'org.evosuite.runtime.sandbox.Sandbox.SandboxMode'.(ùô÷³úÿÿÿÿ
