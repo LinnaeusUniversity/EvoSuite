@@ -1,3 +1,9 @@
+### [HEC DEGREE PROJECT REPOSITORY](https://github.com/rqkohistani/HECBachelorDegreeProject).
+### [PITEST EVALUATION REPOSITORY](https://github.com/rqkohistani/PiTest).
+<!--- ### [EVOSUITE EVALUATION REPOSITORY](https://github.com/rqkohistani/EvoSuite). --->
+### [JDK AND MAVEN CONFIGURATION REQUIREMENTS REPOSITORY](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE).
+<!--- just --->
+
 # EvoSuite
 ## Preparing the project
 ## Prerequisites
