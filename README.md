@@ -1,10 +1,13 @@
-### [HEC DEGREE PROJECT REPOSITORY](https://github.com/rqkohistani/HECBachelorDegreeProject).
-### [PITEST EVALUATION REPOSITORY](https://github.com/rqkohistani/PiTest).
-<!--- ### [EVOSUITE EVALUATION REPOSITORY](https://github.com/rqkohistani/EvoSuite). --->
-### [JDK AND MAVEN CONFIGURATION REQUIREMENTS REPOSITORY](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE).
-<!--- just --->
+# 1. EvoSuite
+1. [EVALUATION V.10](https://github.com/rqkohistani/EvoSuite/blob/main/Evaluation%20V_1.0.md)
+### 2. [HEC BACHELOR DEGREE PROJECT REPOSITORY](https://github.com/rqkohistani/HECBachelorDegreeProject)
+1. [EVALUATION V1.0](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/EVALUATION%20V1.0.md)
+1. [Older version of the Degree Project](https://github.com/rqkohistani/degreeProject)
+### 3. [PITEST EVALUATION REPOSITORY](https://github.com/rqkohistani/PiTest)
+1. [EVALUATION V.10](https://github.com/rqkohistani/PiTest/blob/main/PITEST%20EVALUATION%20RESULTS%20V%201.0.md)
+### [JDK AND MAVEN CONFIGURATION REQUIREMENTS REPOSITORY](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE)
 
-# EvoSuite
+***
 ## Preparing the project
 ## Prerequisites
 
